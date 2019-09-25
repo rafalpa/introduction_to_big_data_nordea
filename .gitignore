@@ -1,0 +1,7 @@
+.idea
+out/
+spark/notebooks/data/*
+*/data/*
+spark/notebooks/.ipynb_checkpoints/*
+spark/notebooks/Untitled*
+spark/resources/*
