@@ -20,9 +20,9 @@ if __name__ == "__main__":
     counts = lines.flatMap(lambda x: x.split(' ')) \
                   .map(lambda x: (x, 1)) \
                   .reduceByKey(add)
-    counts.saveAsTextFile("hdfs:///user/rpaszta/data/output")
+    counts.saveAsTextFile("hdfs:///user/data/output")
 
     spark.stop()
 
 
-# spark-submit --master yarn wordcount.py hdfs:///user/rpaszta/data/shakespeare.txt
+# spark-submit --master yarn wordcount_hdfs.py hdfs:///user/rpaszta/data/shakespeare.txt

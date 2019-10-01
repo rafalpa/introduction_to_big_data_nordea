@@ -1,0 +1,11 @@
+oldapi/MaxTemperatureReducer.class
+MaxTemperatureMapper.class
+MaxTemperatureReducer.class
+MaxTemperature.class
+OldMaxTemperature$OldMaxTemperatureMapper.class
+MaxTemperatureWithCombiner.class
+OldMaxTemperature$OldMaxTemperatureReducer.class
+OldMaxTemperature.class
+oldapi/MaxTemperatureMapper.class
+oldapi/MaxTemperatureWithCombiner.class
+oldapi/MaxTemperature.class

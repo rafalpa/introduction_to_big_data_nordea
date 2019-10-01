@@ -1,0 +1,9 @@
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/oldapi/MaxTemperature.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/OldMaxTemperature.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/MaxTemperatureReducer.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/oldapi/MaxTemperatureReducer.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/MaxTemperatureMapper.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/MaxTemperatureWithCombiner.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/oldapi/MaxTemperatureMapper.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/MaxTemperature.java
+/home/rafalpa/BIGDATA/Hadoop-definitiveGuide/hadoop-book/ch02-mr-intro/src/main/java/oldapi/MaxTemperatureWithCombiner.java

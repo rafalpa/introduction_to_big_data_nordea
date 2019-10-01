@@ -19,10 +19,10 @@ from pyspark.streaming import StreamingContext
 from pyspark.sql import Row, SparkSession
 
 
-# import os
-# spark_location='/home/rafalpa/spark/spark/' # Set your own
-# java8_location='/home/rafalpa/.sdkman/candidates/java/current' # Set your own
-# os.environ['JAVA_HOME'] = java8_location
+import os
+spark_location='/home/rafalpa/spark/spark/' # Set your own
+java8_location='/home/rafalpa/.sdkman/candidates/java/current' # Set your own
+os.environ['JAVA_HOME'] = java8_location
 
 
 def getSparkSessionInstance(sparkConf):
@@ -36,13 +36,13 @@ def getSparkSessionInstance(sparkConf):
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 3:
-        print("Usage: sql_network_wordcount.py <hostname> <port> ", file=sys.stderr)
-        exit(-1)
-    host, port = sys.argv[1:]
+    # if len(sys.argv) != 3:
+    #     print("Usage: sql_network_wordcount.py <hostname> <port> ", file=sys.stderr)
+    #     exit(-1)
+    # host, port = sys.argv[1:]
 
-    # host = "localhost"
-    # port = 9999
+    host = "localhost"
+    port = 9999
 
     sc = SparkContext(appName="PythonSqlNetworkWordCount")
     ssc = StreamingContext(sc, 1)

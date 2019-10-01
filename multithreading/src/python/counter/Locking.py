@@ -15,14 +15,14 @@ lock = threading.Lock()
 t1 = threading.Thread(target=increment, args=[lock,])
 t2 = threading.Thread(target=increment, args=[lock,])
 
-# start = time.time()
+#start = time.time()
 
 t1.start()
 t2.start()
 t1.join()
 t2.join()
 
-# end = time.time()
-# print(end - start)
+#end = time.time()
+#print(end - start)
 
 print(counter)
